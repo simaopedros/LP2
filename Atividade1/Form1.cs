@@ -61,5 +61,27 @@ namespace Atividade1
         {
             Close();
         }
+
+        private void txtAltura_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCalcular_Click(object sender, EventArgs e)
+        {
+            double altura, raio, volume;
+
+            altura = Convert.ToDouble(txtAltura.Text);
+            raio = Convert.ToDouble(txtRaio.Text);
+
+            volume = Math.PI*Math.Pow(raio,2.0)*altura;
+            txtVolume.Text = volume.ToString("N2");
+        }
+
+        private void btnLimpar_Click(object sender, EventArgs e)
+        {
+            txtAltura.Text = "";
+            txtRaio.Text = "";
+        }
     }
 }

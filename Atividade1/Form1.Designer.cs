@@ -34,7 +34,6 @@
             this.lblVolume = new System.Windows.Forms.Label();
             this.txtAltura = new System.Windows.Forms.TextBox();
             this.txtRaio = new System.Windows.Forms.TextBox();
-            this.txtVolume = new System.Windows.Forms.TextBox();
             this.imgCilindro = new System.Windows.Forms.PictureBox();
             this.btnCalcular = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
@@ -42,6 +41,7 @@
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.panel1 = new System.Windows.Forms.Panel();
             this.lblTitulo = new System.Windows.Forms.Label();
+            this.txtVolume = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.imgCilindro)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -72,9 +72,11 @@
             // 
             this.lblVolume.AutoSize = true;
             this.lblVolume.BackColor = System.Drawing.Color.Black;
-            this.lblVolume.Location = new System.Drawing.Point(51, 275);
+            this.lblVolume.Location = new System.Drawing.Point(32, 317);
+            this.lblVolume.Margin = new System.Windows.Forms.Padding(0);
             this.lblVolume.Name = "lblVolume";
-            this.lblVolume.Size = new System.Drawing.Size(69, 21);
+            this.lblVolume.Padding = new System.Windows.Forms.Padding(2);
+            this.lblVolume.Size = new System.Drawing.Size(73, 25);
             this.lblVolume.TabIndex = 2;
             this.lblVolume.Text = "Volume";
             this.lblVolume.Click += new System.EventHandler(this.label3_Click);
@@ -85,22 +87,15 @@
             this.txtAltura.Name = "txtAltura";
             this.txtAltura.Size = new System.Drawing.Size(101, 27);
             this.txtAltura.TabIndex = 4;
+            this.txtAltura.TextChanged += new System.EventHandler(this.txtAltura_TextChanged);
             // 
             // txtRaio
             // 
-            this.txtRaio.Location = new System.Drawing.Point(33, 193);
+            this.txtRaio.Location = new System.Drawing.Point(29, 191);
             this.txtRaio.Name = "txtRaio";
             this.txtRaio.Size = new System.Drawing.Size(109, 27);
             this.txtRaio.TabIndex = 5;
             this.txtRaio.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
-            // 
-            // txtVolume
-            // 
-            this.txtVolume.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtVolume.Location = new System.Drawing.Point(33, 309);
-            this.txtVolume.Name = "txtVolume";
-            this.txtVolume.Size = new System.Drawing.Size(104, 27);
-            this.txtVolume.TabIndex = 6;
             // 
             // imgCilindro
             // 
@@ -126,6 +121,7 @@
             this.btnCalcular.Text = "CALCULAR";
             this.btnCalcular.UseCompatibleTextRendering = true;
             this.btnCalcular.UseVisualStyleBackColor = false;
+            this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
             // 
             // btnClose
             // 
@@ -153,6 +149,7 @@
             this.btnLimpar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnLimpar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
             // panel1
             // 
@@ -173,16 +170,25 @@
             this.lblTitulo.TabIndex = 11;
             this.lblTitulo.Text = "Cylinder Calculator";
             // 
+            // txtVolume
+            // 
+            this.txtVolume.Enabled = false;
+            this.txtVolume.Location = new System.Drawing.Point(117, 315);
+            this.txtVolume.Name = "txtVolume";
+            this.txtVolume.ReadOnly = true;
+            this.txtVolume.Size = new System.Drawing.Size(100, 27);
+            this.txtVolume.TabIndex = 14;
+            // 
             // Form1
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoValidate = System.Windows.Forms.AutoValidate.Disable;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(29)))), ((int)(((byte)(152)))));
             this.ClientSize = new System.Drawing.Size(436, 379);
+            this.Controls.Add(this.txtVolume);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnLimpar);
             this.Controls.Add(this.btnCalcular);
-            this.Controls.Add(this.txtVolume);
             this.Controls.Add(this.txtRaio);
             this.Controls.Add(this.txtAltura);
             this.Controls.Add(this.lblRaio);
@@ -212,7 +218,6 @@
         private System.Windows.Forms.Label lblVolume;
         private System.Windows.Forms.TextBox txtAltura;
         private System.Windows.Forms.TextBox txtRaio;
-        private System.Windows.Forms.TextBox txtVolume;
         private System.Windows.Forms.PictureBox imgCilindro;
         private System.Windows.Forms.Button btnCalcular;
         private System.Windows.Forms.Button btnClose;
@@ -220,6 +225,7 @@
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label lblTitulo;
+        private System.Windows.Forms.TextBox txtVolume;
     }
 }
 
