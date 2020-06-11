@@ -1,0 +1,14 @@
+C:\Users\simao\source\repos\Atividade5\bin\Debug\Atividade5.exe.config
+C:\Users\simao\source\repos\Atividade5\bin\Debug\Atividade5.exe
+C:\Users\simao\source\repos\Atividade5\bin\Debug\Atividade5.pdb
+C:\Users\simao\source\repos\Atividade5\obj\Debug\Atividade5.csprojAssemblyReference.cache
+C:\Users\simao\source\repos\Atividade5\obj\Debug\Atividade5.FormPrincipal.resources
+C:\Users\simao\source\repos\Atividade5\obj\Debug\Atividade5.formExercicio2.resources
+C:\Users\simao\source\repos\Atividade5\obj\Debug\Atividade5.Properties.Resources.resources
+C:\Users\simao\source\repos\Atividade5\obj\Debug\Atividade5.csproj.GenerateResource.cache
+C:\Users\simao\source\repos\Atividade5\obj\Debug\Atividade5.csproj.CoreCompileInputs.cache
+C:\Users\simao\source\repos\Atividade5\obj\Debug\Atividade5.exe
+C:\Users\simao\source\repos\Atividade5\obj\Debug\Atividade5.pdb
+C:\Users\simao\source\repos\Atividade5\obj\Debug\Atividade5.FormExercicio3.resources
+C:\Users\simao\source\repos\Atividade5\obj\Debug\Atividade5.formExercicio4.resources
+C:\Users\simao\source\repos\Atividade5\obj\Debug\Atividade5.frmExercicio5.resources
