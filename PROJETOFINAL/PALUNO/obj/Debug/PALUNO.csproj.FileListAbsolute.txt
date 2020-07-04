@@ -1,0 +1,12 @@
+F:\Programacao\Csharp\PALUNO\bin\Debug\PALUNO.exe.config
+F:\Programacao\Csharp\PALUNO\bin\Debug\PALUNO.exe
+F:\Programacao\Csharp\PALUNO\bin\Debug\PALUNO.pdb
+F:\Programacao\Csharp\PALUNO\obj\Debug\PALUNO.csprojAssemblyReference.cache
+F:\Programacao\Csharp\PALUNO\obj\Debug\PALUNO.FrmPrincipal.resources
+F:\Programacao\Csharp\PALUNO\obj\Debug\PALUNO.FrmCidade.resources
+F:\Programacao\Csharp\PALUNO\obj\Debug\PALUNO.FrmAluno.resources
+F:\Programacao\Csharp\PALUNO\obj\Debug\PALUNO.Properties.Resources.resources
+F:\Programacao\Csharp\PALUNO\obj\Debug\PALUNO.csproj.GenerateResource.cache
+F:\Programacao\Csharp\PALUNO\obj\Debug\PALUNO.csproj.CoreCompileInputs.cache
+F:\Programacao\Csharp\PALUNO\obj\Debug\PALUNO.exe
+F:\Programacao\Csharp\PALUNO\obj\Debug\PALUNO.pdb
